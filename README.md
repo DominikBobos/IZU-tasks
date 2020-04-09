@@ -17,6 +17,7 @@ atomických formulí (predikátů).
 skupina po čtyřech) tak, že každá skupina má jinou formu prvního termu (ne přiliš správně z formálního
 pohledu bychom toto opět mohli vnímat jako jakýsi vstup).
 
+```
 25. Definujte v jazyce PROLOG predikát
 ulohaA3(L, X, LOUT)
 který je platný, pokud je LOUT navázán na seznam všech existujících dvojic A, B z L takových,
@@ -24,4 +25,5 @@ který je platný, pokud je LOUT navázán na seznam všech existujících dvoji
 Příklad platných predikátů:
 ulohaA3([1,5,8,9], 3, [[1,5]).
 ulohaA3([1,3,5,6,8,10,11,12,31], 7, [inv(6,8),inv(3,11)]).
+```
 
