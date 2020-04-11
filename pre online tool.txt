@@ -1,0 +1,13 @@
+outlook;temp;humidity;windy;classes
+sunny;mild;high;true;P
+sunny;mild;normal;true;P
+overcast;cool;normal;false;P
+sunny;mild;high;false;N
+overcast;mild;normal;false;N
+rain;mild;high;false;N
+overcast;mild;high;false;P
+rain;hot;normal;true;P
+sunny;hot;normal;false;N
+overcast;hot;normal;true;N
+rain;hot;normal;false;N
+sunny;mild;normal;false;N
