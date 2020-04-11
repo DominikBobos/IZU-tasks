@@ -1,6 +1,6 @@
 # IZU-tasks
 
-1.úloha PROLOG
+## 1.úloha PROLOG
 
 Zadání:
 
@@ -25,5 +25,41 @@ který je platný, pokud je LOUT navázán na seznam všech existujících dvoji
 Příklad platných predikátů:
 ulohaA3([1,5,8,9], 3, [[1,5]).
 ulohaA3([1,3,5,6,8,10,11,12,31], 7, [inv(6,8),inv(3,11)]).
+```
+
+## 2.úloha ID3 decision trees
+
+Demonstrujte princip generování rozhodovacích stromů pro vám přiřazený příklad. Aplikujte
+algoritmus ID3 (Iterative Dichotomiser 3).
+
+```
+zadanie id3-27
+
+attributes {
+    outlook : sunny overcast rain
+    temp : cool mild hot
+    humidity : high normal
+    windy : true false
+}
+
+classes {
+    P
+    N
+}
+
+objects {
+    1 P sunny mild high true
+    2 P sunny mild normal true
+    3 P overcast cool normal false
+    4 N sunny mild high false
+    5 N overcast mild normal false
+    6 N rain mild high false
+    7 P overcast mild high false
+    8 P rain hot normal true
+    9 N sunny hot normal false
+    10 N overcast hot normal true
+    11 N rain hot normal false
+    12 N sunny mild normal false
+}
 ```
 
