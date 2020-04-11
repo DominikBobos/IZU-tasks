@@ -1,3 +1,6 @@
+https://planetcalc.com/8443/  -> vhodné na kontrolu výsledného stromu
+https://planetcalc.com/8421/  -> na výpočet information gain -ušetrí hrozne veľa času
+
 outlook;temp;humidity;windy;classes
 sunny;mild;high;true;P
 sunny;mild;normal;true;P
