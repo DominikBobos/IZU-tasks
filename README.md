@@ -1,3 +1,5 @@
+1.úloha 6/6
+2.úloha 6/6
 # IZU-tasks
 
 ## 1.úloha PROLOG
